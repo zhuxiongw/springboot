@@ -1,4 +1,4 @@
-package com.vivebest.config;
+package com.vivebest.config.mybatis;
 
 import javax.sql.DataSource;
 
