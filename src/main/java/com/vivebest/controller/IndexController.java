@@ -18,6 +18,6 @@ public class IndexController {
 	public String index(@RequestParam(value="username",defaultValue="不知道",required=false)String username,Model model){
 		User user = userService.findByUsername(username);
 		model.addAttribute("user", user);
-		return "/index/index";
+		return "index/index";
 	}
 }
